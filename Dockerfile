@@ -10,6 +10,7 @@ COPY /app .
 ENV APP_CONFIGURATION='src.config.ProductionConfig'
 
 
+
 CMD [ "python", "run.py" ]
 
 
