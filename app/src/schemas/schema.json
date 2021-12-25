@@ -1,0 +1,84 @@
+{
+    "type": "object",
+    "properites": {
+        "MSZoning": {
+            "type": "string"
+        },
+        "Street": {
+            "type": "string"
+        },
+        "LotShape": {
+            "type": "string"
+        },
+        "LandContour": {
+            "type": "string"
+        },
+        "Utilities": {
+            "type": "string"
+        },
+        "OverallQual": {
+            "type": "integer"
+        },
+        "YearBuilt": {
+            "type": "integer"
+        },
+        "YearRemodAdd": {
+            "type": "integer"
+        },
+        "MasVnrArea": {
+            "type": "number"
+        },
+        "BsmtFinSF1": {
+            "type": "integer"
+        },
+        "TotalBsmtSF": {
+            "type": "integer"
+        },
+        "1stFlrSF": {
+            "type": "integer"
+        },
+        "GrLivArea": {
+            "type": "integer"
+        },
+        "FullBath": {
+            "type": "integer"
+        },
+        "TotRmsAbvGrd": {
+            "type": "integer"
+        },
+        "Fireplaces": {
+            "type": "integer"
+        },
+        "GarageYrBlt": {
+            "type": "integer"
+        },
+        "GarageCars": {
+            "type": "integer"
+        },
+        "GarageArea": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "MSZoning",
+        "Street",
+        "LotShape",
+        "LandContour",
+        "Utilities",
+        "OverallQual",
+        "YearBuilt",
+        "YearRemodAdd",
+        "MasVnrArea",
+        "BsmtFinSF1",
+        "TotalBsmtSF",
+        "1stFlrSF",
+        "GrLivArea",
+        "FullBath",
+        "TotRmsAbvGrd",
+        "Fireplaces",
+        "GarageYrBlt",
+        "GarageCars",
+        "GarageArea"
+    ],
+    "additionalProperites": false
+}
